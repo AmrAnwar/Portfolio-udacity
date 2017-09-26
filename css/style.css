@@ -1,19 +1,22 @@
 * {
     box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Open Sans", arial, sans-serif;
 }
 
 .background-header {
+
     height: 70vh;
     width: 30vm;
-    background: no-repeat center;
     background-size: cover;
+    background: url(../img/testabout.png) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     text-align: center;
+
 }
-.title img{
+
+.title img {
     width: 10%;
 }
 
@@ -26,23 +29,25 @@
     padding-right: 30%;
     color: white
 }
-.text-header h1{
+
+.text-header h1 {
     font-size: 100px
 }
-.project{
+
+.project {
     display: inline-block;
 }
-@media screen and (max-width: 800px) {
-    .card img{
-        height: 400px;
-    }
-}
-.feature{
+
+.feature {
     font-size: 40px;
     color: #636c72;
 }
-@media screen and (min-width: 800px) {
-    .card img{
-        height: 220px;
-    }
+
+.view-btn {
+    text-align: right;
+}
+
+.card img {
+  width:100%;
+  height:auto;
 }

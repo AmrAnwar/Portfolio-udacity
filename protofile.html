@@ -7,50 +7,50 @@
 
     <link href="css/bootstrap-grid.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
 </head>
 
 
 <body>
-<header class="background-header"
-        style="background-image: url('img/testabout.png')">
+<header class="background-header">
 
     <div class="text-header">
         <h1>About Me</h1>
     </div>
 </header>
 
-<div class="container">
-    <div class="title">
-        <h1><img src="img/a-letter.png" alt="logo">mr Anwar</h1>
-        <h4>Software Engineer</h4>
-    </div>
-    <div class="col-md-offset 8">
-        <div class="row">
-
-            <div class="col-md-7">
-                <blockquote class="blockquote">
-                    <p>I am Amr Anwar -- a student at computer system department in faculty of Engineering
-                        Mansoura
-                        university,Interested in all the areas of programming especiallly web backend
-                        development</p>
-                </blockquote>
+<main class="container">
+    <div class="row">
+            <div class="col-12 title">
+                <h1><img src="img/a-letter.png" alt="logo">mr Anwar</h1>
             </div>
-            <div class="col-md-5">
-                <img class="img-responsive img-thumbnail" src="img/me.jpg" alt="Amr">
+            <div class="col-12">
+                <h4>Software Engineer</h4>
             </div>
         </div>
-
-    </div>
-    <div class="feature">
-        Feature Work
+    <div class="row">
+        <div class="col-md-7">
+            <blockquote class="blockquote">
+                <p>I am Amr Anwar -- a student at computer system department in faculty of Engineering
+                    Mansoura
+                    university,Interested in all the areas of programming especiallly web backend
+                    development</p>
+            </blockquote>
+        </div>
+        <div class="col-md-5">
+            <img class="img-responsive img-thumbnail" src="img/me.jpg" alt="Amr">
+        </div>
     </div>
     <div class="row">
-        <div  class="col-lg-4 project">
-            <div class="card">
+        <div class="feature col-12">
+            Feature Work
+        </div>
+
+        <div class="col-lg-4 project">
+            <article class="card">
                 <img class="card-img-top"
-                     alt = "zonna"
+                     alt="zonna"
                      src="img/zonna.png">
                 <div class="card-block">
                     <h5 class="card-title">ZONNA VR GAME</h5>
@@ -58,14 +58,15 @@
                         <span class="badge badge-pill badge-default">unity(C#)</span>
                         <span class="badge badge-pill badge-default">VR</span>
                     </div>
-                    <div style="text-align: right">
-                        <a href="https://www.facebook.com/ZonnaVR/" class="btn btn-primary ">View</a>
+                    <div class="view-btn">
+                        <a href="https://www.facebook.com/ZonnaVR/" target="_blank"
+                           class="btn btn-primary ">View</a>
                     </div>
                 </div>
-            </div>
+            </article>
         </div>
-        <div  class="col-lg-4 project">
-            <div class="card">
+        <div class="col-lg-4 project">
+            <article class="card">
                 <img class="card-img-top"
                      src="img/social.png"
                      alt="social">
@@ -75,16 +76,17 @@
                         <span class="badge badge-pill badge-default">Django</span>
                         <span class="badge badge-pill badge-default">Bootstrap</span>
                     </div>
-                    <div style="text-align: right">
-                        <a href="https://github.com/AmrAnwar/simple-SocialMedia" class="btn btn-primary ">View</a>
+                    <div class="view-btn">
+                        <a href="https://github.com/AmrAnwar/simple-SocialMedia" target="_blank"
+                           class="btn btn-primary ">View</a>
                     </div>
                 </div>
-            </div>
+            </article>
         </div>
-        <div  class="col-lg-4 project">
-            <div class="card">
+        <div class="col-lg-4 project">
+            <article class="card">
                 <img class="card-img-top"
-                    src="img/todo.png"
+                     src="img/todo.png"
                      alt="todo">
                 <div class="card-block">
                     <h5 class="card-title">ToDo List Project</h5>
@@ -93,14 +95,16 @@
                         <span class="badge badge-pill badge-default">Bootstrap(free theme)</span>
                         <span class="badge badge-pill badge-default">Jquery</span>
                     </div>
-                    <div style="text-align: right">
-                        <a href="https://github.com/AmrAnwar/ToDoList_Django_Project" class="btn btn-primary ">View</a>
+                    <div class="view-btn">
+                        <a href="https://github.com/AmrAnwar/ToDoList_Django_Project" target="_blank"
+                           class="btn btn-primary ">View</a>
                     </div>
                 </div>
-            </div>
+            </article>
         </div>
     </div>
+</main>
 
-</div>
 </body>
+
 </html>
