@@ -6,7 +6,6 @@
 .background-header {
 
     height: 70vh;
-    width: 30vm;
     background-size: cover;
     background: url(../img/testabout.png) no-repeat center;
     -webkit-background-size: cover;
@@ -48,6 +47,6 @@
 }
 
 .card img {
-  width:100%;
-  height:auto;
+  width: 100%;
+  height: auto;
 }
